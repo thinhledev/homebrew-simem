@@ -4,11 +4,12 @@
 
 ```bash
 brew tap thinhledev/simem
+brew trust --formula thinhledev/simem/simem
 brew install simem
 simem init
 ```
 
-Or in one step: `brew install thinhledev/simem/simem`. Homebrew installs its own Node.js for simem, so you don't need one. Then restart the Claude Code and Codex apps.
+Homebrew 6 installs from taps outside its own collection only after you trust them; `brew trust --formula` trusts just the simem formula. Homebrew installs its own Node.js for simem, so you don't need one. Then restart the Claude Code and Codex apps.
 
 Upgrade with `brew upgrade simem`. Remove with `simem init --remove`, then `brew uninstall simem`.
 
