@@ -1,8 +1,8 @@
 class Simem < Formula
   desc "Local project memory for AI coding agents, with fewer tokens per session"
   homepage "https://github.com/thinhledev/simem"
-  url "https://registry.npmjs.org/@simem/cli/-/cli-2.0.2.tgz"
-  sha256 "f3c06994c0af455691ad3171522a0fa2f8e04478e5ff566bd44c80a1a3986b5b"
+  url "https://registry.npmjs.org/@simem/cli/-/cli-2.0.3.tgz"
+  sha256 "b99c227664b78e3733ffb21308327ba683c8c3f76463ead68a5922e32d52fe83"
   license "MIT"
 
   depends_on "node"
